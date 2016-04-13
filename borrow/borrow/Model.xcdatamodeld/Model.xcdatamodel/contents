@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15E65" minimumToolsVersion="Xcode 7.0">
-    <elements/>
+    <entity name="BorrowElement" syncable="YES">
+        <attribute name="back" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lend" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="borrowedBy" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="lend" inverseEntity="Person" syncable="YES"/>
+    </entity>
+    <entity name="Person" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phonenumber" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="prename" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="lend" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BorrowElement" inverseName="borrowedBy" inverseEntity="BorrowElement" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Person" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="BorrowElement" positionX="-54" positionY="18" width="128" height="120"/>
+    </elements>
 </model>
