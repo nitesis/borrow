@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FC9D7B21CBEDF510060D94A /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FC9D7B01CBEDF510060D94A /* Model.xcdatamodeld */; };
 		2FD8C8721CABC08D005B7DFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD8C8711CABC08D005B7DFF /* AppDelegate.swift */; };
 		2FD8C8741CABC08D005B7DFF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD8C8731CABC08D005B7DFF /* FirstViewController.swift */; };
 		2FD8C8761CABC08D005B7DFF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD8C8751CABC08D005B7DFF /* SecondViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2FC9D7B11CBEDF510060D94A /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		2FD8C86E1CABC08D005B7DFF /* borrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = borrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD8C8711CABC08D005B7DFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FD8C8731CABC08D005B7DFF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				2FD8C8711CABC08D005B7DFF /* AppDelegate.swift */,
+				2FC9D7B01CBEDF510060D94A /* Model.xcdatamodeld */,
 				2FD8C8731CABC08D005B7DFF /* FirstViewController.swift */,
 				2FD8C8751CABC08D005B7DFF /* SecondViewController.swift */,
 				2FD8C8771CABC08D005B7DFF /* Main.storyboard */,
@@ -142,6 +145,7 @@
 				2FD8C8761CABC08D005B7DFF /* SecondViewController.swift in Sources */,
 				2FD8C8721CABC08D005B7DFF /* AppDelegate.swift in Sources */,
 				2FD8C8741CABC08D005B7DFF /* FirstViewController.swift in Sources */,
+				2FC9D7B21CBEDF510060D94A /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,8 +295,22 @@
 				2FD8C8841CABC08D005B7DFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2FC9D7B01CBEDF510060D94A /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2FC9D7B11CBEDF510060D94A /* Model.xcdatamodel */,
+			);
+			currentVersion = 2FC9D7B11CBEDF510060D94A /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2FD8C8661CABC08D005B7DFF /* Project object */;
 }
