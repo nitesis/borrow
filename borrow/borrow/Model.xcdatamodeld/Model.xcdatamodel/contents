@@ -7,9 +7,9 @@
         <attribute name="title" attributeType="String" syncable="YES"/>
         <relationship name="borrowedBy" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="lend" inverseEntity="Person" syncable="YES"/>
     </entity>
-    <entity name="Person" syncable="YES">
+    <entity name="Person" representedClassName="Person" syncable="YES">
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="phonenumber" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="phonenumber" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="prename" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="lend" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="BorrowElement" inverseName="borrowedBy" inverseEntity="BorrowElement" syncable="YES"/>
     </entity>
