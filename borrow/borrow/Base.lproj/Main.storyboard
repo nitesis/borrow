@@ -85,7 +85,9 @@
                             <outlet property="delegate" destination="GDz-Hz-ZVB" id="gb2-pt-Lpa"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="New Borrow Element" id="LXy-E8-02f"/>
+                    <navigationItem key="navigationItem" title="New Borrow Element" id="1PP-lr-FEk">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="F9l-ef-wJX"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8LQ-Yz-UNz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
