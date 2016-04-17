@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--First-->
@@ -58,8 +59,21 @@
                                 <rect key="frame" x="0.0" y="28" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jGf-21-ihK" id="Gtf-sb-lgR">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="584" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LVv-uC-65O">
+                                            <rect key="frame" x="8" y="0.0" width="584" height="30"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                        </textField>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="LVv-uC-65O" firstAttribute="leading" secondItem="Gtf-sb-lgR" secondAttribute="leadingMargin" id="Mh0-Vh-bR4"/>
+                                        <constraint firstItem="LVv-uC-65O" firstAttribute="leading" secondItem="Gtf-sb-lgR" secondAttribute="leadingMargin" id="UK5-VV-lDW"/>
+                                        <constraint firstItem="LVv-uC-65O" firstAttribute="top" secondItem="Gtf-sb-lgR" secondAttribute="top" id="wLf-nW-NU2"/>
+                                        <constraint firstItem="LVv-uC-65O" firstAttribute="trailing" secondItem="Gtf-sb-lgR" secondAttribute="trailingMargin" id="yJS-O9-nk7"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
