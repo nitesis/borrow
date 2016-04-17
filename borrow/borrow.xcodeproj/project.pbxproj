@@ -14,6 +14,7 @@
 		2FD8C87B1CABC08D005B7DFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD8C87A1CABC08D005B7DFF /* Assets.xcassets */; };
 		2FD8C87E1CABC08D005B7DFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD8C87C1CABC08D005B7DFF /* LaunchScreen.storyboard */; };
 		F718552B1CC4194C0028E2AE /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = F718552A1CC4194C0028E2AE /* CellDescriptor.plist */; };
+		F718552D1CC42DB10028E2AE /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F718552C1CC42DB10028E2AE /* CustomCell.swift */; };
 		F719E8131CC3BABC00C62B98 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F719E8121CC3BABC00C62B98 /* TitleTableViewCell.swift */; };
 		F74EF8961CABCA8600CBE01C /* NewBorrowElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74EF8951CABCA8600CBE01C /* NewBorrowElementView.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +29,7 @@
 		2FD8C87D1CABC08D005B7DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FD8C87F1CABC08D005B7DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F718552A1CC4194C0028E2AE /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
+		F718552C1CC42DB10028E2AE /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		F719E8121CC3BABC00C62B98 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		F74EF8951CABCA8600CBE01C /* NewBorrowElementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewBorrowElementView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +70,7 @@
 				2FD8C8771CABC08D005B7DFF /* Main.storyboard */,
 				F719E8121CC3BABC00C62B98 /* TitleTableViewCell.swift */,
 				F74EF8951CABCA8600CBE01C /* NewBorrowElementView.swift */,
+				F718552C1CC42DB10028E2AE /* CustomCell.swift */,
 				2FD8C87A1CABC08D005B7DFF /* Assets.xcassets */,
 				2FD8C87C1CABC08D005B7DFF /* LaunchScreen.storyboard */,
 				2FD8C87F1CABC08D005B7DFF /* Info.plist */,
@@ -153,6 +156,7 @@
 				2FD8C8761CABC08D005B7DFF /* SecondViewController.swift in Sources */,
 				2FD8C8721CABC08D005B7DFF /* AppDelegate.swift in Sources */,
 				2FD8C8741CABC08D005B7DFF /* FirstViewController.swift in Sources */,
+				F718552D1CC42DB10028E2AE /* CustomCell.swift in Sources */,
 				F74EF8961CABCA8600CBE01C /* NewBorrowElementView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
