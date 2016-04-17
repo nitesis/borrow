@@ -46,7 +46,7 @@
             </objects>
             <point key="canvasLocation" x="750" y="-320"/>
         </scene>
-        <!--New Borrow Element View-->
+        <!--New Borrow Element-->
         <scene sceneID="WvH-zm-WuY">
             <objects>
                 <tableViewController id="GDz-Hz-ZVB" customClass="NewBorrowElementView" customModule="borrow" customModuleProvider="target" sceneMemberID="viewController">
@@ -56,7 +56,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="TitleTableViewCell" rowHeight="44" id="jGf-21-ihK" customClass="TitleTableViewCell" customModule="borrow" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jGf-21-ihK" id="Gtf-sb-lgR">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
@@ -75,6 +75,9 @@
                                         <constraint firstItem="LVv-uC-65O" firstAttribute="trailing" secondItem="Gtf-sb-lgR" secondAttribute="trailingMargin" id="yJS-O9-nk7"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="title" destination="LVv-uC-65O" id="DYo-Bb-zSQ"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -82,10 +85,11 @@
                             <outlet property="delegate" destination="GDz-Hz-ZVB" id="gb2-pt-Lpa"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="New Borrow Element" id="LXy-E8-02f"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8LQ-Yz-UNz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1560" y="6"/>
+            <point key="canvasLocation" x="2372" y="6"/>
         </scene>
         <!--Second-->
         <scene sceneID="wg7-f3-ORb">
@@ -145,6 +149,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="jb4-Tv-rti">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Od8-Ys-QF3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="x5Y-ac-qkg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="GDz-Hz-ZVB" kind="relationship" relationship="rootViewController" id="3WC-45-8kx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dj0-Ct-MgD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1560" y="6"/>
         </scene>
     </scenes>
     <resources>
