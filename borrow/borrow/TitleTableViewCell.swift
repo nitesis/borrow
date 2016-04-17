@@ -9,6 +9,9 @@
 import UIKit
 
 class TitleTableViewCell: UITableViewCell {
+    
+    // MARK: Properties
+    @IBOutlet weak var title: UITextField!
 
     override func awakeFromNib() {
         super.awakeFromNib()
