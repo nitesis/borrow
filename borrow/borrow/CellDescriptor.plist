@@ -323,7 +323,7 @@
 			<key>value</key>
 			<string>false</string>
 			<key>primaryTitle</key>
-			<string>Off = off, On = on</string>
+			<string>Off = Off, On = On</string>
 			<key>secondaryTitle</key>
 			<string></string>
 			<key>cellIdentifier</key>
