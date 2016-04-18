@@ -13,6 +13,7 @@ class NewBorrowElementView: UIViewController, UITableViewDelegate, UITableViewDa
     // MARK: IBOutlet Properties
     
     @IBOutlet weak var tblExpandable: UITableView!
+    //@IBOutlet weak var tblExpandable: UITableView!
     
     
     // MARK: Variables

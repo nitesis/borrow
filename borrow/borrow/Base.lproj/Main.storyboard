@@ -168,10 +168,10 @@
             </objects>
             <point key="canvasLocation" x="1560" y="6"/>
         </scene>
-        <!--View Controller-->
+        <!--New Borrow Element View-->
         <scene sceneID="Ahy-CV-Cam">
             <objects>
-                <viewController id="ggu-3W-m7g" sceneMemberID="viewController">
+                <viewController id="ggu-3W-m7g" customClass="NewBorrowElementView" customModule="borrow" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="n7L-M2-xLL"/>
                         <viewControllerLayoutGuide type="bottom" id="Cwr-5T-gsJ"/>
@@ -189,6 +189,9 @@
                     </view>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="tblExpandable" destination="r4f-mJ-uFC" id="y6U-RV-x5e"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tQw-SX-Xoj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
