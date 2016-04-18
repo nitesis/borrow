@@ -21,7 +21,6 @@
 		F71855361CC42F100028E2AE /* TextfieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F71855351CC42F100028E2AE /* TextfieldCell.xib */; };
 		F71855381CC42F1D0028E2AE /* ValuePickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F71855371CC42F1D0028E2AE /* ValuePickerCell.xib */; };
 		F718553A1CC42F2A0028E2AE /* SwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F71855391CC42F2A0028E2AE /* SwitchCell.xib */; };
-		F719E8131CC3BABC00C62B98 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F719E8121CC3BABC00C62B98 /* TitleTableViewCell.swift */; };
 		F74EF8961CABCA8600CBE01C /* NewBorrowElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74EF8951CABCA8600CBE01C /* NewBorrowElementView.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +41,6 @@
 		F71855351CC42F100028E2AE /* TextfieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextfieldCell.xib; sourceTree = "<group>"; };
 		F71855371CC42F1D0028E2AE /* ValuePickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ValuePickerCell.xib; sourceTree = "<group>"; };
 		F71855391CC42F2A0028E2AE /* SwitchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchCell.xib; sourceTree = "<group>"; };
-		F719E8121CC3BABC00C62B98 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		F74EF8951CABCA8600CBE01C /* NewBorrowElementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewBorrowElementView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,7 +79,6 @@
 				2FD8C8731CABC08D005B7DFF /* FirstViewController.swift */,
 				2FD8C8751CABC08D005B7DFF /* SecondViewController.swift */,
 				2FD8C8771CABC08D005B7DFF /* Main.storyboard */,
-				F719E8121CC3BABC00C62B98 /* TitleTableViewCell.swift */,
 				F74EF8951CABCA8600CBE01C /* NewBorrowElementView.swift */,
 				F718552C1CC42DB10028E2AE /* CustomCell.swift */,
 				2FD8C87A1CABC08D005B7DFF /* Assets.xcassets */,
@@ -184,7 +181,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F719E8131CC3BABC00C62B98 /* TitleTableViewCell.swift in Sources */,
 				2FD8C8761CABC08D005B7DFF /* SecondViewController.swift in Sources */,
 				2FD8C8721CABC08D005B7DFF /* AppDelegate.swift in Sources */,
 				2FD8C8741CABC08D005B7DFF /* FirstViewController.swift in Sources */,
