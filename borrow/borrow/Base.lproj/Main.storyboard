@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--First-->
@@ -116,12 +117,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="r4f-mJ-uFC">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="r4f-mJ-uFC">
                                 <rect key="frame" x="0.0" y="20" width="600" height="580"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="r4f-mJ-uFC" firstAttribute="leading" secondItem="RMK-HA-2F5" secondAttribute="leadingMargin" constant="-20" id="9pW-SC-xhB"/>
+                            <constraint firstItem="r4f-mJ-uFC" firstAttribute="top" secondItem="n7L-M2-xLL" secondAttribute="bottom" id="C43-DN-UJ6"/>
+                            <constraint firstItem="r4f-mJ-uFC" firstAttribute="bottom" secondItem="RMK-HA-2F5" secondAttribute="bottomMargin" id="b6x-dT-VgN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="r4f-mJ-uFC" secondAttribute="trailing" constant="-20" id="qrs-9A-vfq"/>
+                        </constraints>
                     </view>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
