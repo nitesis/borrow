@@ -221,17 +221,18 @@ class NewBorrowElementView: UIViewController, UITableViewDelegate, UITableViewDa
     // MARK: CustomCellDelegate Functions
     
     func dateWasSelected(selectedDateString: String) {
-        let dateCellSection = 0
-        let dateCellRow = 3
+        let dateCellSection = 2
+        let dateCellRow = 1
         
         cellDescriptors[dateCellSection][dateCellRow].setValue(selectedDateString, forKey: "primaryTitle")
+        cellDescriptors[dateCellSection][dateCellRow-1].setValue(selectedDateString, forKey: "primaryTitle")
         tblExpandable.reloadData()
     }
     
     
     func maritalStatusSwitchChangedState(isOn: Bool) {
-        let maritalSwitchCellSection = 0
-        let maritalSwitchCellRow = 6
+        let maritalSwitchCellSection = 2
+        let maritalSwitchCellRow = 3
         
         let valueToStore = (isOn) ? "true" : "false"
         let valueToDisplay = (isOn) ? "On" : "Off"
