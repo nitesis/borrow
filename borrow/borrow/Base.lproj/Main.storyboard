@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ggu-3W-m7g">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--First-->
@@ -45,51 +44,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="750" y="-320"/>
-        </scene>
-        <!--New Borrow Element-->
-        <scene sceneID="WvH-zm-WuY">
-            <objects>
-                <tableViewController title="New Borrow Element" id="GDz-Hz-ZVB" customClass="NewBorrowElementView" customModule="borrow" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="URe-rg-1J4">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="TitleTableViewCell" id="jGf-21-ihK" customClass="TitleTableViewCell" customModule="borrow" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jGf-21-ihK" id="Gtf-sb-lgR">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="584" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LVv-uC-65O">
-                                            <rect key="frame" x="8" y="0.0" width="584" height="30"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
-                                        </textField>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstItem="LVv-uC-65O" firstAttribute="leading" secondItem="Gtf-sb-lgR" secondAttribute="leadingMargin" id="Mh0-Vh-bR4"/>
-                                        <constraint firstItem="LVv-uC-65O" firstAttribute="leading" secondItem="Gtf-sb-lgR" secondAttribute="leadingMargin" id="UK5-VV-lDW"/>
-                                        <constraint firstItem="LVv-uC-65O" firstAttribute="top" secondItem="Gtf-sb-lgR" secondAttribute="top" id="wLf-nW-NU2"/>
-                                        <constraint firstItem="LVv-uC-65O" firstAttribute="trailing" secondItem="Gtf-sb-lgR" secondAttribute="trailingMargin" id="yJS-O9-nk7"/>
-                                    </constraints>
-                                </tableViewCellContentView>
-                                <connections>
-                                    <outlet property="title" destination="LVv-uC-65O" id="DYo-Bb-zSQ"/>
-                                </connections>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="GDz-Hz-ZVB" id="yob-ok-W5c"/>
-                            <outlet property="delegate" destination="GDz-Hz-ZVB" id="gb2-pt-Lpa"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="New Borrow Element" id="1PP-lr-FEk"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8LQ-Yz-UNz" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2372" y="6"/>
         </scene>
         <!--Second-->
         <scene sceneID="wg7-f3-ORb">
@@ -150,24 +104,6 @@
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="jb4-Tv-rti">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Od8-Ys-QF3" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="x5Y-ac-qkg">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="GDz-Hz-ZVB" kind="relationship" relationship="rootViewController" id="3WC-45-8kx"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dj0-Ct-MgD" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1560" y="6"/>
-        </scene>
         <!--New Borrow Element View-->
         <scene sceneID="Ahy-CV-Cam">
             <objects>
@@ -195,7 +131,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tQw-SX-Xoj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2339" y="670"/>
+            <point key="canvasLocation" x="1571" y="0.0"/>
         </scene>
     </scenes>
     <resources>
