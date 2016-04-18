@@ -116,10 +116,10 @@ class NewBorrowElementView: UIViewController, UITableViewDelegate, UITableViewDa
             return "Personal"
             
         case 1:
-            return "Preferences"
+            return "Category"
             
         default:
-            return "Work Experience"
+            return "Date"
         }
     }
     
@@ -233,7 +233,7 @@ class NewBorrowElementView: UIViewController, UITableViewDelegate, UITableViewDa
         let maritalSwitchCellRow = 6
         
         let valueToStore = (isOn) ? "true" : "false"
-        let valueToDisplay = (isOn) ? "Married" : "Single"
+        let valueToDisplay = (isOn) ? "On" : "Off"
         
         cellDescriptors[maritalSwitchCellSection][maritalSwitchCellRow].setValue(valueToStore, forKey: "value")
         cellDescriptors[maritalSwitchCellSection][maritalSwitchCellRow - 1].setValue(valueToDisplay, forKey: "primaryTitle")
