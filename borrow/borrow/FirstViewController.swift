@@ -19,6 +19,12 @@ class FirstViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func cancelToFirstViewController(segue:UIStoryboardSegue) {
+    }
+    
+    @IBAction func saveNewBorrowElement(segue:UIStoryboardSegue) {
+    }
 
 
 }

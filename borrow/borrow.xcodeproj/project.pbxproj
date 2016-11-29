@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
+=======
+		2F683B341CEDD51500F4D34B /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F683B331CEDD51500F4D34B /* HistoryTableViewController.swift */; };
+		2F683B361CEDDDF800F4D34B /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F683B351CEDDDF800F4D34B /* DataController.swift */; };
+		2FA166B01CD20C72001D3A4B /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA166AC1CD20C72001D3A4B /* Person+CoreDataProperties.swift */; };
+		2FA166B11CD20C72001D3A4B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA166AD1CD20C72001D3A4B /* Person.swift */; };
+		2FA166B21CD20C72001D3A4B /* BorrowElement+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA166AE1CD20C72001D3A4B /* BorrowElement+CoreDataProperties.swift */; };
+		2FA166B31CD20C72001D3A4B /* BorrowElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA166AF1CD20C72001D3A4B /* BorrowElement.swift */; };
+		2FA166B71CD24440001D3A4B /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA166B61CD24440001D3A4B /* HistoryTableViewCell.swift */; };
+		2FC9D7B21CBEDF510060D94A /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FC9D7B01CBEDF510060D94A /* Model.xcdatamodeld */; };
+		2FC9D7B81CBF799B0060D94A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC9D7B71CBF799B0060D94A /* Category.swift */; };
+>>>>>>> RaphiOriginal/master
 		2FD8C8721CABC08D005B7DFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD8C8711CABC08D005B7DFF /* AppDelegate.swift */; };
 		2FD8C8741CABC08D005B7DFF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD8C8731CABC08D005B7DFF /* FirstViewController.swift */; };
-		2FD8C8761CABC08D005B7DFF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD8C8751CABC08D005B7DFF /* SecondViewController.swift */; };
 		2FD8C8791CABC08D005B7DFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD8C8771CABC08D005B7DFF /* Main.storyboard */; };
 		2FD8C87B1CABC08D005B7DFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD8C87A1CABC08D005B7DFF /* Assets.xcassets */; };
 		2FD8C87E1CABC08D005B7DFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD8C87C1CABC08D005B7DFF /* LaunchScreen.storyboard */; };
+<<<<<<< HEAD
 		F718552B1CC4194C0028E2AE /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = F718552A1CC4194C0028E2AE /* CellDescriptor.plist */; };
 		F718552D1CC42DB10028E2AE /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F718552C1CC42DB10028E2AE /* CustomCell.swift */; };
 		F71855301CC42EB60028E2AE /* DatePickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F718552F1CC42EB60028E2AE /* DatePickerCell.xib */; };
@@ -25,14 +37,39 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+=======
+		F6D36A271D003EA800FCBE39 /* FirstViewTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D36A261D003EA800FCBE39 /* FirstViewTableController.swift */; };
+		F6D36A291D0040ED00FCBE39 /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D36A281D0040ED00FCBE39 /* FirstTableViewCell.swift */; };
+		F7242F461CD225FD00A00B7E /* NewBorrowElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7242F451CD225FD00A00B7E /* NewBorrowElementView.swift */; };
+		F7242F481CD2270500A00B7E /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7242F471CD2270500A00B7E /* CustomCell.swift */; };
+		F7242F4B1CD22DA900A00B7E /* SwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7242F4A1CD22DA900A00B7E /* SwitchCell.xib */; };
+		F7242F4D1CD22DB200A00B7E /* ValuePickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7242F4C1CD22DB200A00B7E /* ValuePickerCell.xib */; };
+		F7242F4F1CD22DC000A00B7E /* TextfieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7242F4E1CD22DC000A00B7E /* TextfieldCell.xib */; };
+		F7242F511CD22DC800A00B7E /* SliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7242F501CD22DC800A00B7E /* SliderCell.xib */; };
+		F7242F531CD22DCE00A00B7E /* NormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7242F521CD22DCE00A00B7E /* NormalCell.xib */; };
+		F7242F551CD22DD700A00B7E /* DatePickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7242F541CD22DD700A00B7E /* DatePickerCell.xib */; };
+		F7242F571CD22E2000A00B7E /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7242F561CD22E2000A00B7E /* CellDescriptor.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F683B331CEDD51500F4D34B /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		2F683B351CEDDDF800F4D34B /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		2FA166AC1CD20C72001D3A4B /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Person+CoreDataProperties.swift"; path = "../Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2FA166AD1CD20C72001D3A4B /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = ../Person.swift; sourceTree = "<group>"; };
+		2FA166AE1CD20C72001D3A4B /* BorrowElement+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "BorrowElement+CoreDataProperties.swift"; path = "../BorrowElement+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2FA166AF1CD20C72001D3A4B /* BorrowElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BorrowElement.swift; path = ../BorrowElement.swift; sourceTree = "<group>"; };
+		2FA166B61CD24440001D3A4B /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		2FC9D7B11CBEDF510060D94A /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		2FC9D7B71CBF799B0060D94A /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+>>>>>>> RaphiOriginal/master
 		2FD8C86E1CABC08D005B7DFF /* borrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = borrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD8C8711CABC08D005B7DFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FD8C8731CABC08D005B7DFF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		2FD8C8751CABC08D005B7DFF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		2FD8C8781CABC08D005B7DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FD8C87A1CABC08D005B7DFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FD8C87D1CABC08D005B7DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FD8C87F1CABC08D005B7DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		F718552A1CC4194C0028E2AE /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
 		F718552C1CC42DB10028E2AE /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		F718552F1CC42EB60028E2AE /* DatePickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerCell.xib; sourceTree = "<group>"; };
@@ -42,6 +79,19 @@
 		F71855371CC42F1D0028E2AE /* ValuePickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ValuePickerCell.xib; sourceTree = "<group>"; };
 		F71855391CC42F2A0028E2AE /* SwitchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchCell.xib; sourceTree = "<group>"; };
 		F74EF8951CABCA8600CBE01C /* NewBorrowElementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewBorrowElementView.swift; sourceTree = "<group>"; };
+=======
+		F6D36A261D003EA800FCBE39 /* FirstViewTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewTableController.swift; sourceTree = "<group>"; };
+		F6D36A281D0040ED00FCBE39 /* FirstTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
+		F7242F451CD225FD00A00B7E /* NewBorrowElementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewBorrowElementView.swift; sourceTree = "<group>"; };
+		F7242F471CD2270500A00B7E /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		F7242F4A1CD22DA900A00B7E /* SwitchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchCell.xib; sourceTree = "<group>"; };
+		F7242F4C1CD22DB200A00B7E /* ValuePickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ValuePickerCell.xib; sourceTree = "<group>"; };
+		F7242F4E1CD22DC000A00B7E /* TextfieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextfieldCell.xib; sourceTree = "<group>"; };
+		F7242F501CD22DC800A00B7E /* SliderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderCell.xib; sourceTree = "<group>"; };
+		F7242F521CD22DCE00A00B7E /* NormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NormalCell.xib; sourceTree = "<group>"; };
+		F7242F541CD22DD700A00B7E /* DatePickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerCell.xib; sourceTree = "<group>"; };
+		F7242F561CD22E2000A00B7E /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
+>>>>>>> RaphiOriginal/master
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,21 +124,46 @@
 		2FD8C8701CABC08D005B7DFF /* borrow */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				F718552E1CC42E7E0028E2AE /* Custom Cells */,
 				2FD8C8711CABC08D005B7DFF /* AppDelegate.swift */,
+=======
+				F6D36A261D003EA800FCBE39 /* FirstViewTableController.swift */,
+				F7242F561CD22E2000A00B7E /* CellDescriptor.plist */,
+				F7242F491CD22D8E00A00B7E /* Custom Cells */,
+				2FD8C8711CABC08D005B7DFF /* AppDelegate.swift */,
+				2FC9D7B01CBEDF510060D94A /* Model.xcdatamodeld */,
+				2F683B351CEDDDF800F4D34B /* DataController.swift */,
+>>>>>>> RaphiOriginal/master
 				2FD8C8731CABC08D005B7DFF /* FirstViewController.swift */,
-				2FD8C8751CABC08D005B7DFF /* SecondViewController.swift */,
+				2F683B331CEDD51500F4D34B /* HistoryTableViewController.swift */,
 				2FD8C8771CABC08D005B7DFF /* Main.storyboard */,
+<<<<<<< HEAD
 				F74EF8951CABCA8600CBE01C /* NewBorrowElementView.swift */,
 				F718552C1CC42DB10028E2AE /* CustomCell.swift */,
 				2FD8C87A1CABC08D005B7DFF /* Assets.xcassets */,
 				2FD8C87C1CABC08D005B7DFF /* LaunchScreen.storyboard */,
 				2FD8C87F1CABC08D005B7DFF /* Info.plist */,
 				F718552A1CC4194C0028E2AE /* CellDescriptor.plist */,
+=======
+				2FA166B61CD24440001D3A4B /* HistoryTableViewCell.swift */,
+				2FD8C87A1CABC08D005B7DFF /* Assets.xcassets */,
+				2FD8C87C1CABC08D005B7DFF /* LaunchScreen.storyboard */,
+				2FD8C87F1CABC08D005B7DFF /* Info.plist */,
+				2FA166AC1CD20C72001D3A4B /* Person+CoreDataProperties.swift */,
+				2FA166AD1CD20C72001D3A4B /* Person.swift */,
+				2FA166AE1CD20C72001D3A4B /* BorrowElement+CoreDataProperties.swift */,
+				2FA166AF1CD20C72001D3A4B /* BorrowElement.swift */,
+				2FC9D7B71CBF799B0060D94A /* Category.swift */,
+				F7242F451CD225FD00A00B7E /* NewBorrowElementView.swift */,
+				F7242F471CD2270500A00B7E /* CustomCell.swift */,
+				F6D36A281D0040ED00FCBE39 /* FirstTableViewCell.swift */,
+>>>>>>> RaphiOriginal/master
 			);
 			path = borrow;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		F718552E1CC42E7E0028E2AE /* Custom Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +173,17 @@
 				F71855331CC42ED20028E2AE /* SliderCell.xib */,
 				F71855311CC42EC70028E2AE /* NormalCell.xib */,
 				F718552F1CC42EB60028E2AE /* DatePickerCell.xib */,
+=======
+		F7242F491CD22D8E00A00B7E /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F7242F541CD22DD700A00B7E /* DatePickerCell.xib */,
+				F7242F521CD22DCE00A00B7E /* NormalCell.xib */,
+				F7242F501CD22DC800A00B7E /* SliderCell.xib */,
+				F7242F4E1CD22DC000A00B7E /* TextfieldCell.xib */,
+				F7242F4C1CD22DB200A00B7E /* ValuePickerCell.xib */,
+				F7242F4A1CD22DA900A00B7E /* SwitchCell.xib */,
+>>>>>>> RaphiOriginal/master
 			);
 			name = "Custom Cells";
 			sourceTree = "<group>";
@@ -161,11 +247,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7242F551CD22DD700A00B7E /* DatePickerCell.xib in Resources */,
+				F7242F571CD22E2000A00B7E /* CellDescriptor.plist in Resources */,
+				F7242F531CD22DCE00A00B7E /* NormalCell.xib in Resources */,
 				2FD8C87E1CABC08D005B7DFF /* LaunchScreen.storyboard in Resources */,
+<<<<<<< HEAD
 				F718552B1CC4194C0028E2AE /* CellDescriptor.plist in Resources */,
 				F71855301CC42EB60028E2AE /* DatePickerCell.xib in Resources */,
 				F71855361CC42F100028E2AE /* TextfieldCell.xib in Resources */,
 				F71855341CC42ED20028E2AE /* SliderCell.xib in Resources */,
+=======
+				F7242F4F1CD22DC000A00B7E /* TextfieldCell.xib in Resources */,
+				F7242F4B1CD22DA900A00B7E /* SwitchCell.xib in Resources */,
+				F7242F511CD22DC800A00B7E /* SliderCell.xib in Resources */,
+				F7242F4D1CD22DB200A00B7E /* ValuePickerCell.xib in Resources */,
+>>>>>>> RaphiOriginal/master
 				2FD8C87B1CABC08D005B7DFF /* Assets.xcassets in Resources */,
 				F71855381CC42F1D0028E2AE /* ValuePickerCell.xib in Resources */,
 				F71855321CC42EC70028E2AE /* NormalCell.xib in Resources */,
@@ -181,11 +277,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				2FD8C8761CABC08D005B7DFF /* SecondViewController.swift in Sources */,
 				2FD8C8721CABC08D005B7DFF /* AppDelegate.swift in Sources */,
 				2FD8C8741CABC08D005B7DFF /* FirstViewController.swift in Sources */,
 				F718552D1CC42DB10028E2AE /* CustomCell.swift in Sources */,
 				F74EF8961CABCA8600CBE01C /* NewBorrowElementView.swift in Sources */,
+=======
+				2FD8C8721CABC08D005B7DFF /* AppDelegate.swift in Sources */,
+				F6D36A271D003EA800FCBE39 /* FirstViewTableController.swift in Sources */,
+				F7242F481CD2270500A00B7E /* CustomCell.swift in Sources */,
+				2FA166B01CD20C72001D3A4B /* Person+CoreDataProperties.swift in Sources */,
+				2FA166B31CD20C72001D3A4B /* BorrowElement.swift in Sources */,
+				2FD8C8741CABC08D005B7DFF /* FirstViewController.swift in Sources */,
+				2FA166B71CD24440001D3A4B /* HistoryTableViewCell.swift in Sources */,
+				F6D36A291D0040ED00FCBE39 /* FirstTableViewCell.swift in Sources */,
+				2FA166B11CD20C72001D3A4B /* Person.swift in Sources */,
+				2FC9D7B21CBEDF510060D94A /* Model.xcdatamodeld in Sources */,
+				F7242F461CD225FD00A00B7E /* NewBorrowElementView.swift in Sources */,
+				2FC9D7B81CBF799B0060D94A /* Category.swift in Sources */,
+				2FA166B21CD20C72001D3A4B /* BorrowElement+CoreDataProperties.swift in Sources */,
+				2F683B361CEDDDF800F4D34B /* DataController.swift in Sources */,
+				2F683B341CEDD51500F4D34B /* HistoryTableViewController.swift in Sources */,
+>>>>>>> RaphiOriginal/master
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

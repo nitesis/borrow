@@ -2,7 +2,11 @@
 //  CustomCell.swift
 //  borrow
 //
+<<<<<<< HEAD
 //  Created by soulsista on 17.04.16.
+=======
+//  Created by soulsista on 28.04.16.
+>>>>>>> RaphiOriginal/master
 //  Copyright © 2016 Raphael Brunner. All rights reserved.
 //
 

@@ -2,7 +2,11 @@
 //  NewBorrowElementView.swift
 //  borrow
 //
+<<<<<<< HEAD
 //  Created by soulsista on 30.03.16.
+=======
+//  Created by soulsista on 28.04.16.
+>>>>>>> RaphiOriginal/master
 //  Copyright © 2016 Raphael Brunner. All rights reserved.
 //
 
@@ -13,7 +17,10 @@ class NewBorrowElementView: UIViewController, UITableViewDelegate, UITableViewDa
     // MARK: IBOutlet Properties
     
     @IBOutlet weak var tblExpandable: UITableView!
+<<<<<<< HEAD
     //@IBOutlet weak var tblExpandable: UITableView!
+=======
+>>>>>>> RaphiOriginal/master
     
     
     // MARK: Variables
@@ -114,7 +121,11 @@ class NewBorrowElementView: UIViewController, UITableViewDelegate, UITableViewDa
     func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         switch section {
         case 0:
+<<<<<<< HEAD
             return "Personal"
+=======
+            return "Item"
+>>>>>>> RaphiOriginal/master
             
         case 1:
             return "Category"
